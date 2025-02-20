@@ -37,9 +37,9 @@ Getting Started
     
 2.  **Set Up Azure Credentials**:
     
-    *   Create an Azure Service Principal and grant it the necessary permissions (Needs to be Owner on the Resource Group to be used). Use something like
+    *   Create an Azure Service Principal and grant it the necessary permissions (Needs to be Contributor on the Resource Group to be used). Use something like
   
-        > az ad sp create-for-rbac --name "GitHubActionsDemo" --role Owner --scopes /subscriptions/{PUT-SUB-ID}/resourceGroups/{PUT-RG-NAME} --json-auth
+        > az ad sp create-for-rbac --name "GitHubActionsDemo" --role Contributor --scopes /subscriptions/{PUT-SUB-ID}/resourceGroups/{PUT-RG-NAME} --json-auth
         
     *   Add the following secrets to your GitHub repository using "Settings" / "Secrets and Variables" / "Actions":
         
