@@ -22,6 +22,8 @@ Prerequisites
 Before using the samples in this repository, ensure you have the following:
 
 *   **Azure Subscription**: Active subscription to deploy resources.
+
+*   **Azure Resource Group**: Any resource group to be used for the deployment.
     
 *   **GitHub Account**: To set up and run GitHub Actions.
     
@@ -31,7 +33,7 @@ Before using the samples in this repository, ensure you have the following:
 Getting Started
 ---------------
 
-1.  git clone https://github.com/HaikoHertes/GitHubActionsDemo2025_v1.git your-repo-name
+1.  git clone https://github.com/HaikoHertes/ActionsDemo2025.simple.git your-repo-name
     
 2.  **Set Up Azure Credentials**:
     
@@ -39,7 +41,7 @@ Getting Started
   
         > az ad sp create-for-rbac --name "GitHubActionsDemo" --role Owner --scopes /subscriptions/{PUT-SUB-ID}/resourceGroups/{PUT-RG-NAME} --json-auth
         
-    *   Add the following secrets to your GitHub repository:
+    *   Add the following secrets to your GitHub repository using "Settings" / "Secrets and Variables" / "Actions":
         
         *   AZURE\_CREDS (Use the JSON you got from previous step)
             
