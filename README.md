@@ -33,7 +33,7 @@ Before using the samples in this repository, ensure you have the following:
 Getting Started
 ---------------
 
-1.  git clone https://github.com/HaikoHertes/ActionsDemo2025.simple.git your-repo-name
+1.  git clone https://github.com/HaikoHertes/ActionsDemo2025.simple.git
     
 2.  **Set Up Azure Credentials**:
     
