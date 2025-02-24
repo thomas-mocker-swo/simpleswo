@@ -1,4 +1,4 @@
-#  See https://docs.github.com/en/actions/about-github-actions/understanding-github-actions?learn=getting_started&learnProduct=actions for initial information and concepts of GitHub Actions
+# See https://docs.github.com/en/actions/about-github-actions/understanding-github-actions?learn=getting_started&learnProduct=actions for initial information and concepts of GitHub Actions
 
 name: Deploy Bicep file
 on: 
