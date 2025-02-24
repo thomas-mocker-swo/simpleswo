@@ -1,0 +1,11 @@
+name: Deploy Terraform
+on: 
+  # https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows
+  # push - to deploy on every push to main branch
+  # schedule - to deploy on a schedule
+  # workflow_dispatch - to deploy manually
+  push:
+    # Name branches to filther the push event
+    # https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#using-filters
+    branches:
+      - main
