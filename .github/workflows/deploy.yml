@@ -45,7 +45,7 @@ jobs: # Jobs run in parallel by default
         subscription-id: ${{ secrets.AZURE_SUB_ID }}
         resource-group-name: ${{ env.RESOURCE_GROUP }}
         template-file: './Bicep/storageAccount.bicep'
-        parameters: '{"parStorageAccountName": "ghadmostorage2025tmocker1234", 
+        parameters: '{"parStorageAccountName": "torage2025tmocker1234", 
                       "parStorageSKU": "Standard_LRS"}'
     
     - name: Show outputs and Link
